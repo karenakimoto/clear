@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clear</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header class='image-clear'>
+    <%= link_to root_path do %>
+    <%= image_tag'clear.JPG'%>
+    <% end%>
+    </header>
+    <%= yield %>
+  </body>
+</html>

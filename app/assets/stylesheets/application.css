@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .image-clear{
+   text-align: center;
+   background-color: white;
+ }
+
+ .clear-index{
+   text-align: center;
+   color: white;
+ }
+
+ body{
+   background-color: #000042;
+ }
+
+ .clear-tittle{
+  margin: 40px 10px 10px 10px;
+  color: burlywood;
+  font-size: 20px;
+ }
+
+ .clear-tittle2{
+  margin: 30px 10px 10px 10px;
+  color: burlywood;
+  font-size: 20px;
+ }
+
+ .clear-tittle3{
+  margin: 30px 10px 10px 10px;
+  color: burlywood;
+  font-size: 20px;
+ }
+
+ .clear-tittle4{
+  margin: 30px 10px 10px 10px;
+  color: burlywood;
+  font-size: 20px;
+ }
+
+.clear-tittle5{
+  margin: 30px 10px 10px 10px;
+  color: burlywood;
+  font-size: 20px;
+}
+
+.clear-tittle6{
+  margin: 10px 10px 10px 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.clear-menu{
+  text-align: left;
+}
+
+.clear-menu-tittle{
+  margin: 20px 0 10px 20px;
+}
