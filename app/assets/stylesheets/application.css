@@ -14,10 +14,12 @@
  *= require_self
  */
 
-.image-clear{
-  text-align: center;
-  background-color: white;
-}
+
+ .image-clear{
+   text-align: left;
+   background-color: white;
+   padding: 0 0 0 23px;
+ }
 
 .clear-index{
   text-align: center;
