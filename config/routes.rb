@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to:'clear#index'
-  resouces :clear do
+  resources :clear do
     collection do
       get 'inquiry'
       get 'overview'
