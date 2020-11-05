@@ -15,8 +15,9 @@
  */
 
  .image-clear{
-   text-align: center;
+   text-align: left;
    background-color: white;
+   padding: 0 0 0 23px;
  }
 
  .clear-index{
