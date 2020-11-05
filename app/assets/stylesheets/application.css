@@ -14,44 +14,50 @@
  *= require_self
  */
 
+
  .image-clear{
    text-align: left;
    background-color: white;
    padding: 0 0 0 23px;
  }
 
- .clear-index{
-   text-align: center;
-   color: white;
- }
+.clear-index{
+  text-align: center;
+  color: white;
+}
 
- body{
-   background-color: #000042;
- }
+body{
+  background-color: #000042;
+}
 
- .clear-tittle{
+h1{
+  color: burlywood;
+  text-align: center;
+}
+
+.clear-tittle{
   margin: 40px 10px 10px 10px;
   color: burlywood;
   font-size: 20px;
- }
+}
 
- .clear-tittle2{
+.clear-tittle2{
   margin: 30px 10px 10px 10px;
   color: burlywood;
   font-size: 20px;
- }
+}
 
- .clear-tittle3{
+.clear-tittle3{
   margin: 30px 10px 10px 10px;
   color: burlywood;
   font-size: 20px;
- }
+}
 
- .clear-tittle4{
+.clear-tittle4{
   margin: 30px 10px 10px 10px;
   color: burlywood;
   font-size: 20px;
- }
+}
 
 .clear-tittle5{
   margin: 30px 10px 10px 10px;
@@ -71,4 +77,9 @@
 
 .clear-menu-tittle{
   margin: 20px 0 10px 20px;
+}
+
+.clear-links{
+  text-decoration: none;
+  color: white;
 }
