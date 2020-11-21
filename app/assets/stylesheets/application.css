@@ -15,11 +15,11 @@
  */
 
 
- .image-clear{
-   text-align: left;
-   background-color: white;
-   padding: 0 0 0 23px;
- }
+.image-clear{
+  text-align: left;
+  background-color: white;
+  padding: 0 0 0 23px;
+}
 
 .clear-index{
   text-align: center;
@@ -27,7 +27,7 @@
 }
 
 body{
-  background-color: #000042;
+  background-image: url(background.JPG);
 }
 
 h1{
@@ -82,4 +82,41 @@ h1{
 .clear-links{
   text-decoration: none;
   color: white;
+}
+
+.overview-table{
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.overview-tr1{
+  background-color: darkslategray;
+}
+
+.overview-tr2{
+  background-color: black;
+}
+
+ul{
+  list-style: none;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+li{
+  position: absolute;
+  width: 100%;
+}
+
+.title-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img-list{
+  margin-bottom: 200px;
 }
