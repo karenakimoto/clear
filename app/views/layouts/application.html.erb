@@ -4,16 +4,33 @@
     <title>Clear</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= favicon_link_tag('favicon.ico') %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
     <header class='image-clear'>
-    <%= link_to root_path do %>
-    <%= image_tag'clear.JPG'%>
-    <% end%>
+      <%= link_to root_path do %>
+      <%= image_tag'clear.JPG'%>
+      <% end%>
     </header>
     <%= yield %>
+    <div class="clear-menu">
+      <div class="clear-menu-tittle">
+        menu
+      </div>
+      <div class="clear-tittle6">
+        <%= link_to "リノベーション定番コース", renovation_clear_index_path, class:"clear-links" %>
+      </div>
+      <div class="clear-tittle6">
+        <%= link_to "会社概要", overview_clear_index_path, class:"clear-links" %>
+      </div>
+      <div class="clear-tittle6">
+        <%= link_to "採用情報", recruitment_clear_index_path, class:"clear-links" %>
+      </div>
+      <div class="clear-tittle6">
+        <%= link_to "お問い合わせ", inquiry_clear_index_path, class:"clear-links" %>
+      </div>
+    </div>
   </body>
 </html>
